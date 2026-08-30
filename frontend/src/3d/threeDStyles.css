@@ -1,0 +1,105 @@
+/* 3D UI/UX Styles & Holographic Cyber Depth */
+
+.mode-3d-active {
+  --neon-cyan: #06b6d4;
+  --neon-indigo: #6366f1;
+  --neon-purple: #a855f7;
+  --neon-emerald: #10b981;
+  --neon-rose: #f43f5e;
+}
+
+/* 3D Perspective Container */
+.perspective-container {
+  perspective: 1200px;
+  transform-style: preserve-3d;
+}
+
+/* 3D Glassmorphism Cards */
+.card-3d-glass {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 
+    0 10px 30px -5px rgba(99, 102, 241, 0.08),
+    0 20px 40px -15px rgba(0, 0, 0, 0.06),
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.9);
+  transition: transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.25s ease;
+  transform-style: preserve-3d;
+}
+
+.card-3d-glass:hover {
+  box-shadow: 
+    0 20px 40px -5px rgba(99, 102, 241, 0.18),
+    0 30px 60px -15px rgba(0, 0, 0, 0.1),
+    inset 0 1px 2px 0 rgba(255, 255, 255, 1);
+}
+
+/* Holographic glowing borders */
+.hologram-border {
+  position: relative;
+}
+
+.hologram-border::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1.5px;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.6), rgba(6, 182, 212, 0.3), rgba(168, 85, 247, 0.6));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* 3D Button Push effect */
+.btn-3d {
+  transform-style: preserve-3d;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 0 rgba(79, 70, 229, 0.8), 0 8px 15px rgba(99, 102, 241, 0.25);
+}
+
+.btn-3d:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 rgba(79, 70, 229, 0.8), 0 12px 20px rgba(99, 102, 241, 0.35);
+}
+
+.btn-3d:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 rgba(79, 70, 229, 0.8), 0 2px 5px rgba(99, 102, 241, 0.2);
+}
+
+/* 3D Floating Animation */
+@keyframes float3D {
+  0%, 100% {
+    transform: translateY(0px) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: translateY(-6px) rotateX(2deg) rotateY(-2deg);
+  }
+}
+
+.floating-3d {
+  animation: float3D 6s ease-in-out infinite;
+}
+
+/* Hologram pulse animation */
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(99, 102, 241, 0.3), 0 0 30px rgba(6, 182, 212, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(99, 102, 241, 0.5), 0 0 45px rgba(6, 182, 212, 0.35);
+  }
+}
+
+.pulse-glow-3d {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+/* 3D Badge */
+.badge-3d {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06), inset 0 1px 1px rgba(255,255,255,0.8);
+  transform: translateZ(10px);
+}

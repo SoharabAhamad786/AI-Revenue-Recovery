@@ -1,0 +1,13 @@
+{
+  "name": "recover-ai",
+  "version": "1.0.0",
+  "description": "RecoverAI - Intelligent Invoice and Payment Recovery Assistant",
+  "scripts": {
+    "start": "python run_server.py",
+    "dev": "python run_server.py",
+    "server": "python run_server.py"
+  },
+  "keywords": ["ai", "revenue-recovery", "fintech", "accounts-receivable"],
+  "author": "RecoverAI Team",
+  "license": "MIT"
+}

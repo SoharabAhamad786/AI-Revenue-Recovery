@@ -1,0 +1,191 @@
+[
+  {
+    "to": "emily.z@novatech.io",
+    "subject": "Payment Reminder: Invoice INV-2024-002",
+    "body": "Test reminder message",
+    "invoice_number": "INV-2024-002",
+    "sent_at": "2026-08-28T05:39:29.201552+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "michael@apexind.com",
+    "subject": "Payment Reminder: Invoice INV-2024-001",
+    "body": "Test",
+    "invoice_number": "INV-2024-001",
+    "sent_at": "2026-08-28T05:39:29.585208+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "emily.z@novatech.io",
+    "subject": "Payment Reminder: Invoice INV-2024-002",
+    "body": "Test reminder message",
+    "invoice_number": "INV-2024-002",
+    "sent_at": "2026-08-28T05:40:32.339127+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "michael@apexind.com",
+    "subject": "Payment Reminder: Invoice INV-2024-001",
+    "body": "Test reminder",
+    "invoice_number": "INV-2024-001",
+    "sent_at": "2026-08-28T05:40:32.697260+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "emily.z@novatech.io",
+    "subject": "Payment Reminder: Invoice INV-2024-002",
+    "body": "Test reminder message",
+    "invoice_number": "INV-2024-002",
+    "sent_at": "2026-08-28T05:47:26.574830+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "michael@apexind.com",
+    "subject": "Payment Reminder: Invoice INV-2024-001",
+    "body": "Test reminder",
+    "invoice_number": "INV-2024-001",
+    "sent_at": "2026-08-28T05:47:27.225771+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "tclark@pinnaclefs.com",
+    "subject": "Payment Reminder: Invoice INV-2024-012",
+    "body": "Dear Thomas Clark,\n\nI hope this message finds you well. I'm writing regarding invoice INV-2024-012 for $85,000.00, which was due on 2026-08-23 and is now 5 days past due.\n\nWe understand that oversights can happen, and we'd like to help resolve this promptly. Could you please arrange payment at your earliest convenience?\n\nPayment can be made via:\n\u2022 Online: https://demo.recoverai.local/pay/INV-2024-012\n\u2022 Bank transfer to our account on file\n\nIf you have any questions about this invoice or need to discuss payment arrangements, please don't hesitate to contact our accounts receivable team at ar@recoverai.demo or call us at +1-555-0100.\n\nThank you for your continued partnership.\n\nBest regards,\nAccounts Receivable Team\nRecoverAI Demo Corp",
+    "invoice_number": "INV-2024-012",
+    "sent_at": "2026-08-28T15:47:01.288902+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "emily.z@novatech.io",
+    "subject": "Payment Reminder: Invoice INV-2024-002",
+    "body": "Test reminder message",
+    "invoice_number": "INV-2024-002",
+    "sent_at": "2026-08-28T16:35:00.388281+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "michael@apexind.com",
+    "subject": "Payment Reminder: Invoice INV-2024-001",
+    "body": "Test reminder",
+    "invoice_number": "INV-2024-001",
+    "sent_at": "2026-08-28T16:35:00.727021+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "emily.z@novatech.io",
+    "subject": "Payment Reminder: Invoice INV-2024-002",
+    "body": "Test reminder message",
+    "invoice_number": "INV-2024-002",
+    "sent_at": "2026-08-28T16:37:03.008400+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "michael@apexind.com",
+    "subject": "Payment Reminder: Invoice INV-2024-001",
+    "body": "Test reminder",
+    "invoice_number": "INV-2024-001",
+    "sent_at": "2026-08-28T16:37:03.336048+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "emily.z@novatech.io",
+    "subject": "Payment Reminder: Invoice INV-2024-002",
+    "body": "Test reminder message",
+    "invoice_number": "INV-2024-002",
+    "sent_at": "2026-08-28T16:39:12.471284+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "michael@apexind.com",
+    "subject": "Payment Reminder: Invoice INV-2024-001",
+    "body": "Test reminder",
+    "invoice_number": "INV-2024-001",
+    "sent_at": "2026-08-28T16:39:12.815837+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "rmartinez@coastaldyn.com",
+    "subject": "Payment Reminder: Invoice INV-2024-003",
+    "body": "Dear Robert Martinez,\n\nWe're writing to let you know that a recent payment attempt for invoice INV-2024-003 ($3,200.00, due 2026-08-23) was unsuccessful.\n\nReason: Insufficient funds - card declined\n\nTo ensure uninterrupted service, please update your payment method or arrange an alternative payment:\n\n\u2022 Update payment method: https://demo.recoverai.local/pay/INV-2024-003\n\u2022 Contact us to arrange payment: ar@recoverai.demo\n\nIf you believe this is an error or need assistance, our team is here to help.\n\nBest regards,\nAccounts Receivable Team\nRecoverAI Demo Corp",
+    "invoice_number": "INV-2024-003",
+    "sent_at": "2026-08-30T08:11:44.410300+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "emily.z@novatech.io",
+    "subject": "Payment Reminder: Invoice INV-2024-002",
+    "body": "Test reminder message",
+    "invoice_number": "INV-2024-002",
+    "sent_at": "2026-08-30T08:12:07.480318+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "michael@apexind.com",
+    "subject": "Payment Reminder: Invoice INV-2024-001",
+    "body": "Test reminder",
+    "invoice_number": "INV-2024-001",
+    "sent_at": "2026-08-30T08:12:08.218890+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "emily.z@novatech.io",
+    "subject": "Payment Reminder: Invoice INV-2024-002",
+    "body": "Test reminder message",
+    "invoice_number": "INV-2024-002",
+    "sent_at": "2026-08-30T08:26:08.899636+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "michael@apexind.com",
+    "subject": "Payment Reminder: Invoice INV-2024-001",
+    "body": "Test reminder",
+    "invoice_number": "INV-2024-001",
+    "sent_at": "2026-08-30T08:26:09.304483+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "emily.z@novatech.io",
+    "subject": "Payment Reminder: Invoice INV-2024-002",
+    "body": "Test reminder message",
+    "invoice_number": "INV-2024-002",
+    "sent_at": "2026-08-30T08:46:26.949832+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "michael@apexind.com",
+    "subject": "Payment Reminder: Invoice INV-2024-001",
+    "body": "Test reminder",
+    "invoice_number": "INV-2024-001",
+    "sent_at": "2026-08-30T08:46:27.317061+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  },
+  {
+    "to": "amanda@velocitystartups.io",
+    "subject": "Payment Reminder: Invoice INV-2024-006",
+    "body": "Dear Amanda Foster,\n\nI hope this message finds you well. I'm writing regarding invoice INV-2024-006 for $6,800.00, which was due on 2026-07-19 and is now 42 days past due.\n\nWe understand that oversights can happen, and we'd like to help resolve this promptly. Could you please arrange payment at your earliest convenience?\n\nPayment can be made via:\n\u2022 Online: https://demo.recoverai.local/pay/INV-2024-006\n\u2022 Bank transfer to our account on file\n\nIf you have any questions about this invoice or need to discuss payment arrangements, please don't hesitate to contact our accounts receivable team at ar@recoverai.demo or call us at +1-555-0100.\n\nThank you for your continued partnership.\n\nBest regards,\nAccounts Receivable Team\nRecoverAI Demo Corp",
+    "invoice_number": "INV-2024-006",
+    "sent_at": "2026-08-30T09:05:36.538880+00:00",
+    "status": "delivered",
+    "provider": "mock"
+  }
+]
