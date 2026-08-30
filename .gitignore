@@ -42,10 +42,28 @@ frontend/dist/
 frontend/dist-ssr/
 *.local
 
-# Temporary Video Render Directories & Intermediates
+# Media files & Video recordings
+*.mp4
+*.webm
+*.avi
+*.mkv
+*.mov
+*.mp3
+*.wav
+*.srt
+
+# Demo Video scripts & recording tools
+demo_video/
+demo_video_script.md
+RecoverAI_Demo_Script.txt
+RecoverAI_Demo_Subtitles.srt
+produce_*.py
+record_*.py
+mux_*.py
+add_voice_*.py
+build_clean_*.py
 _raw_*/
 _temp_*/
-*.webm
 
 # Environment variables
 .env
