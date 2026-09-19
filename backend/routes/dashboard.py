@@ -1,5 +1,6 @@
 """Dashboard routes."""
 from flask import Blueprint, jsonify
+# pyrefly: ignore [missing-import]
 from flask_jwt_extended import jwt_required
 from sqlalchemy import func
 from extensions import db

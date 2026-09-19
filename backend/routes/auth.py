@@ -1,5 +1,6 @@
 """Authentication routes."""
 from flask import Blueprint, request, jsonify
+# pyrefly: ignore [missing-import]
 from flask_jwt_extended import (
     create_access_token, jwt_required, get_jwt_identity, get_jwt
 )
